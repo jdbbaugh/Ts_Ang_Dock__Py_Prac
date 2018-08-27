@@ -71,8 +71,8 @@ talks to the PostgreSQL database on port 5432 for any request that require datab
 ![project architecture](https://github.com/Muserk-team/Angular-Flask-Postgres-Skeleton/blob/master/project_architecture.png)
 
 ## Usage
-__NOTE__: Make sure you have Docker, node, npm and angular-cli installed. Check Angular 
-Prerequisites [here](https://github.com/angular/angular-cli#prerequisites).
+__NOTE__: **Make sure you have Docker, node, npm and angular-cli installed. Check Angular 
+Prerequisites [here](https://github.com/angular/angular-cli#prerequisites).**
 * Clone this repository
 * **Not Required** - Navigate to client directory and execute `ng build --prod` to create production build for Angular.
 * Then navigate back and execute following commands:
