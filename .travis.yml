@@ -1,0 +1,12 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker-compose -f docker-compose.yml up --build
+  - sleep 90
+  - docker-compose logs
+
+script:
+    - wget http://localhost/api/ping
