@@ -1,4 +1,4 @@
-# Angular-Flask-Docker-Skeleton
+# Angular-Flask-Docker-Skeleton [![Build Status](https://travis-ci.com/Muserk-team/Angular-Flask-Postgres-Skeleton.svg?token=NKyRzjphhaRN7q5B3ADt&branch=master)](https://travis-ci.com/Muserk-team/Angular-Flask-Postgres-Skeleton)
 ### Simple Angular-Flask-PostgreSQL seed project with Docker.
 
 This is a simple Angular-Flask web application skeleton project with following key 
