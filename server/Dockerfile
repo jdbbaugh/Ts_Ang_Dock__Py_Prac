@@ -1,6 +1,6 @@
-FROM python:3.6.2
+FROM python:latest
 
-MAINTAINER Collin White "collin.white@muserk.com"
+MAINTAINER Collin White "test@muserk.com"
 
 ENV PYTHONUNBUFFERED 1
 
