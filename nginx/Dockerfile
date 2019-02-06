@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-MAINTAINER Collin White "tech@muserk.com"
+MAINTAINER MUSERK "tech@muserk.com"
 
 # Copy custom nginx config
 COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
