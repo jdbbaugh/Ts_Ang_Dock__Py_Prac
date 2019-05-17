@@ -1,4 +1,4 @@
-# Angular-Flask-Docker-Skeleton [![Build Status](https://travis-ci.com/Muserk-team/Angular-Flask-Postgres-Skeleton.svg?token=NKyRzjphhaRN7q5B3ADt&branch=master)](https://travis-ci.com/Muserk-team/Angular-Flask-Postgres-Skeleton)
+# Angular-Flask-PostgreSQL Starter
 ### Simple Angular-Flask-PostgreSQL seed project with Docker.
 
 This is a simple Angular-Flask web application skeleton project with following key 
@@ -74,7 +74,7 @@ talks to the PostgreSQL database on port 5432 for any request that require datab
 __NOTE__: **Make sure you have Docker, node, npm and angular-cli installed. Check Angular 
 Prerequisites [here](https://github.com/angular/angular-cli#prerequisites).**
 * Clone this repository
-* **Not Required** - Navigate to client directory and execute `ng build --prod` to create production build for Angular.
+* Navigate to client directory and execute `ng build --prod` to create production build for Angular.
 * Then navigate back and execute following commands:
   * `docker-compose build`
   * `docker-compose up`
