@@ -90,7 +90,7 @@ This seed project is good for starting up with any Angular-Flask-Docker project,
 
 ## Working with PostgreSQL
 
-* Check to see if `postgres` is running on port `5432`:
+* Check to see if `postgres` is running on port `5432` **or** `6432`:
     * Run: `nc -zv localhost 5432`
     * Correct Output: `Connection to localhost port 5432 [tcp/postgresql] succeeded!`
     * If you see above output, everything is good
