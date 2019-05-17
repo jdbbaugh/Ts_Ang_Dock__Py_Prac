@@ -108,13 +108,6 @@ This seed project is good for starting up with any Angular-Flask-Docker project,
       postgres=# 
    ```
     * `\l` - show all databases
-    *  `\c users_dev` - connect to `users_dev` database.
+    *  `\c muserk` - connect to `muserk` database.
     * `\dt` - shows list of tables in the selected database
-    * check data: `SELECT * FROM users;`
-
-## Running Python Tests:
-* All Flask/Python unit tests resides inside the `server/tests` directory and managed by `manage
-.py` Python file.
-* Run the sample tests using following command:
-    * `docker-compose -f docker-compose.yml run --rm flask_demo python manage.py test`
-
+    * check data: `SELECT * FROM muserk;`
