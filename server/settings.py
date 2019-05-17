@@ -10,7 +10,7 @@ class Config(object):
     """ Common config options """
     APPNAME = 'Muserk'
     SUPPORT_EMAIL = 'tech@muserk.com'
-    VERSION = '2.0.1'
+    VERSION = '2.0.0'
     APPID = 'muserk'
     SECRET_KEY = os.urandom(24)
     TESTING = False
