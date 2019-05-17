@@ -79,12 +79,12 @@ Prerequisites [here](https://github.com/angular/angular-cli#prerequisites).**
   * `docker-compose build`
   * `docker-compose up`
   * *OR* just run one command: `docker-compose -f docker-compose.yml up --build`
+ * Open a second terminal window and navigate to client directory and run `ng serve` - this will allow hot reload development of the front-end while you are making changes. Certain changes will require a repeat of the above `docker-compose` steps
  * Open Browser and type following URL:
   * `localhost` - It should display the Welcome message from Angular and a default message from 
   backend. 
   * `localhost/api` - It should display welcome message from Flask.
   * `localhost/api/ping` - To get a `json` from Flask.
-  * `http://localhost/api/users` - Fetches all users from `users` table.
 
 This seed project is good for starting up with any Angular-Flask-Docker project, so check it out and feel free to fork, update, plug in your project etc. Let me know if you find any issues.
 
