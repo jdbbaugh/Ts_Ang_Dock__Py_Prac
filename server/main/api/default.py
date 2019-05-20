@@ -13,3 +13,7 @@ def hello():
 @route.route("/api/ping")
 def ping():
     return jsonify({"status": 200, "msg":"This message is coming from Flask backend!"})
+
+# @route.route("/api/upload", methods=['POST'])
+# def uploads():
+#     return jsonify({"status": 200, "msg":"This is me!"})
