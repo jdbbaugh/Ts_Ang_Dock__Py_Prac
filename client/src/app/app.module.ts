@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { InputComponent } from './components/input/input.component';
 import { UsersComponent } from './components/users/users.component';
+import { UserSpecificComponent } from './components/user-specific/user-specific.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { UsersComponent } from './components/users/users.component';
     HeaderComponent,
     InputComponent,
     UsersComponent,
+    UserSpecificComponent,
   ],
   imports: [
     BrowserModule,

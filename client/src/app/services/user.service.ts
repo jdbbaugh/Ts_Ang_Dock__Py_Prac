@@ -14,7 +14,7 @@ const httpOptions = {
   providedIn: 'root'
 })
 export class UserService {
-  usersUrl:string = 'http://localhost/api/users';
+  usersUrl:string = 'http://jsonplaceholder.typicode.com/todos';
 
 
   constructor(private http:HttpClient) { }
