@@ -3,18 +3,28 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { User } from '../models/User';
 import { Observable } from 'rxjs';
+import * as cors from "cors";
+
+
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-type': 'application/json'
+    'allowedHeaders': ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token"],
+    'Content-type': 'application/json',
+    'credentials': 'true',
+    'methods': "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
+    'origin': 'API_URL',
+    'preflightContinue': 'false'
   })
 }
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-  usersUrl:string = 'https://localhost/api/users';
+
+  usersUrl:string = 'http://localhost/api/users';
 
 
   constructor(private http:HttpClient) { }
