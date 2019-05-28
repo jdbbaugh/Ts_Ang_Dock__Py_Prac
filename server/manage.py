@@ -1,5 +1,5 @@
 """
-Test Suite for Flask. 
+Test Suite for Flask.
 To run:
 python test_suite test
 python test_suite cov
@@ -12,6 +12,7 @@ from flask_script import Manager
 from server.main import db
 from server.main.api import create_app_blueprint
 from server.main.models.user import User
+from server.main.models.upload import Upload
 
 COV = coverage(
     branch=True,
@@ -79,7 +80,21 @@ def seed_db():
         email='admin@gmail.com',
         password='admin'
     ))
+    # db.session.add(Upload(
+    #     workId = "ID_numtest",
+    #     revenue = "34",
+    #     plays = "453",
+    #     day = '23-July'
+    # ))
+    # db.session.add(Upload(
+    #     workId = "ID_numtest",
+    #     revenue = "34",
+    #     plays = "453",
+    #     day = '23-July'
+    # ))
     db.session.commit()
+
+
 
 if __name__ == '__main__':
     manager.run()

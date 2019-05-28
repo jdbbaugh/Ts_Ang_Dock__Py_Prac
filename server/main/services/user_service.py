@@ -1,8 +1,7 @@
+
 # -*- coding: utf-8 -*-
 """
-
 UserService class - This class holds the method related to User manipulations.
-
 """
 
 from server.main.models.user import User
@@ -15,4 +14,3 @@ class UserService(SQLAlchemyService):
     def __init__(self):
         # Creating a parent class ref to access parent class methods.
         self.parentClassRef = super(UserService, self)
-
