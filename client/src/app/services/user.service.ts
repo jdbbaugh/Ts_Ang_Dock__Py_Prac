@@ -9,12 +9,8 @@ import * as cors from "cors";
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'allowedHeaders': ["Origin", "X-Requested-With", "Content-Type", "Accept", "X-Access-Token"],
+
     'Content-type': 'application/json',
-    'credentials': 'true',
-    'methods': "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
-    'origin': 'API_URL',
-    'preflightContinue': 'false'
   })
 }
 
